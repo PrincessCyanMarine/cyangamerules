@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cyangamerules",
+  "version": "1.0",
+  "name": "Cyan's gamerules",
+  "description": "Adds a few gamerules to spice up your game",
+  "authors": [
+    "CyanMarine"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/cyangamerules/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cyanmarine.cyangamerules.CyanGamerules"
+    ]
+  },
+  "mixins": [
+    "cyangamerules.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": ">=1.18"
+  }
+}
